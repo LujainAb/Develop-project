@@ -18,5 +18,80 @@
 
 body {
     font-family: var(--font);
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 425px){  /* phone sizes */
+    #nav-logo {
+        width: 40vw !important;
+        height: 40vw;
+        padding-top: 2vw !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {  /* tablet sizes */
+
+    .nav-links{
+
+        padding: 0 0;
+    }
+    .nav-links a {
+        font-size: 3.5vw !important; 
+    }
+
+    #nav-logo {
+        height: min(15vw, 90px);
+    }
+
+    #nav-links-ul {
+        display: flex;
+        flex-basis: 10% ;
+        padding-left: 0px;
+    }
+}
+
+
+/* ----------------------------- navbar ------------------------*/
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,.5);
+    max-width: 100%;
+}
+
+#nav-links-ul {
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-around;
+    white-space: nowrap;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 20px 10px;
+    text-overflow: clip;
+}
+
+.nav-links a {
+    text-decoration:none;
+    font-weight: var(--weight-bolder);
+    font-size: 30px;
+    color: var(--Dark-purple);
+    line-height: 37.5px;
+}
+
+#nav-logo {
+    transform: scale(0.8);
+    height: min(18vw, 90px);
+    margin-left: -30px ;
+    margin-top: 10px;
+    padding: 0;
+    align-self: flex-start;
+    
 }
 
