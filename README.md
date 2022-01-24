@@ -1,10 +1,10 @@
 
-# <img src="img/logo.png" width="50px"> Develop Landig Page
+# <img src="img/logo.png" width="50px"> Develop Landing Page
 
 ## Introduction
 
 
-## Mood Bord 
+## Mood Board 
 <img src="img/maintoMB.jpg">
 
 ## Page Prototype

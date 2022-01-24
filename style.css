@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+:root{
+    /* Colors */
+    --Dark-purple: #0c1753;
+    --Lilac: #9375ff;
+    --Green: #00a69c;
+    --Yellow: #ffe101;
+    --Lemon: #fee552;
+    /* Fonts */
+    --font: 'Quicksand', sans-serif;
+    --weight-lighter: 300;
+    --weight-light:400;
+    --weight-bold:600;
+    --weight-bolder:700;
+
+}
+
+body {
+    font-family: var(--font);
+}
+
