@@ -255,3 +255,37 @@ nav {
     padding: 5px;
 }
 
+#st , #nd , #rd {
+    height: 600px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#st img , #nd img {
+    height: 500px;
+    width: 500px;    
+    margin: 40px 0 10px 0;
+} 
+
+.third-info  , .third-odd-info {
+   align-self: center;
+}
+
+.third-info p , .third-odd-info p {
+    font-size: 20px;
+    width: 500px;
+}
+
+.third-info li , .third-odd-info li {
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.third-info h1 , .third-odd-info h1 {
+    font-size: 35px;
+    color: var(--Green);
+    font-weight: var(--weight-bolder);
+}
+
+
