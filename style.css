@@ -57,6 +57,31 @@ body {
         padding: 40px;
     }
 
+    
+    #st , #nd {
+        flex-direction: column;
+        margin: 40%;
+        align-items: center;
+    }
+
+    #nd {
+        flex-direction: column-reverse;
+    }
+
+    #st img , #nd img {
+        height: 250px !important;
+        width: 250px !important;    
+    } 
+
+    .third-info , .third-odd-info {
+        margin-left: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .third-info p , .third-odd-info p {
+        width: 350px !important;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {  /* tablet sizes */
@@ -102,6 +127,21 @@ body {
         height: fit-content !important;
         margin: 20px !important;
     }
+
+    #st , #nd , #rd {
+        flex-direction: column;
+        margin: 40%;
+        align-items: center;
+    }
+
+    #nd {
+        flex-direction: column-reverse;
+    }
+
+    #st img , #nd img {
+        height: 70vw !important;
+        width: 70vw !important;    
+    } 
 }
 
 
@@ -255,7 +295,9 @@ nav {
     padding: 5px;
 }
 
-#st , #nd , #rd {
+/* ----------------------------- third section ------------------------*/
+
+#st , #nd  {
     height: 600px;
     display: flex;
     padding: 10px;
