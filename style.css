@@ -142,6 +142,28 @@ body {
         height: 70vw !important;
         width: 70vw !important;    
     } 
+
+    #fourth {
+        flex-direction: column !important;
+        height: 800px !important;
+        justify-content: stretch;
+    }
+
+    .contact-text{
+        width:100% ;
+    }
+
+    .contact-text h1 {
+        font-size: 9vw !important;
+        width: 50%;
+        color: #00a69c !important;
+        white-space: nowrap;
+    }
+
+    .contact-form {
+        flex: 4 !important;
+        width: 97% !important;
+    }
 }
 
 
@@ -330,4 +352,59 @@ nav {
     font-weight: var(--weight-bolder);
 }
 
+/* ----------------------------- fourth section ------------------------*/
 
+#fourth{
+    height: 600px;
+    display: flex;
+    background-color: var(--Dark-purple);
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.contact-text h1 {
+    color: white;
+    font-weight: var(--weight-bolder);
+    font-size: 64px;
+}
+
+.contact-form{
+    align-items: flex-start;
+    width: 40%;
+}
+
+.contact-form h6 {
+    color: white;
+    font-weight: var(--weight-lighter);
+    font-size: 28px;
+}
+
+form input , form textarea , button {
+    width: 97%;
+    height: 50px ;
+    margin: 10px;
+    border: 2px solid rgba(159, 160, 184, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: var(--font);
+}
+
+/* input[name="name"] , input[name="city"]{
+
+    width: 45%;
+    display: inline-block;
+    
+} */
+
+#fields-align{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: var(--Yellow);
+    color: var(--Dark-purple);
+    font-size:35px ;
+    font-weight: var(--weight-bolder);
+
+}
