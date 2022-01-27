@@ -21,12 +21,13 @@ body {
     font-family: var(--font);
     margin: 0;
     padding:0;
+    width: fit-content;
     overflow-x: hidden;
 }
 
 @media only screen and (max-width: 425px){  /* phone sizes */
     #nav-logo {
-        width: 40vw !important;
+        width: 50% !important;
         height: 40vw;
         padding-top: 2vw !important;
         margin-left: 0px !important;
@@ -53,7 +54,6 @@ body {
         display: flex !important;
         flex-direction: column !important;
         justify-content: space-around;
-
         padding: 40px;
     }
 
@@ -164,6 +164,12 @@ body {
         flex: 4 !important;
         width: 97% !important;
     }
+
+    footer {
+        flex-direction: column !important;
+        height: fit-content !important;
+        align-items: center;
+    }
 }
 
 
@@ -227,9 +233,13 @@ nav {
     display: flex;
 }
 
+.intro-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #development {
-    width: 600px;
-    height: 350px;
+    width: 80%;
     align-self: center;
 }
 
@@ -289,7 +299,7 @@ nav {
 }
 
 .card {
-    width: 400px;
+    width: 60%;
     height: 400px;
     background-color: white;
     font-size: 36px ;
@@ -407,4 +417,51 @@ button{
     font-size:35px ;
     font-weight: var(--weight-bolder);
 
+}
+
+/* ----------------------------- ending section ------------------------*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+
+footer img{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.links ul {
+    list-style: none;
+    padding-left: 5px;
+    font-size: 28px;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+}
+
+.links h4 , .socials h4 {
+    color: var(--Green);
+    font-size: 35px;
+    font-weight: var(--weight-bolder);
+    align-self: center;
+}
+
+svg{
+    margin: 15px;
+}
+
+
+.copyrights {
+    text-align: center;
+    background-image: linear-gradient(#0C175394 , #9375FF94);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: var(--weight-bolder);
+    color: white;
+}
+
+.copyrights span {
+    color: var(--Dark-purple);
 }
