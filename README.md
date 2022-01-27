@@ -2,7 +2,7 @@
 # <img src="img/logo.png" width="50px"> Develop Landing Page
 
 ## Introduction
-
+The website is hosted at the URL : https://lujainab.github.io/Develop-project/ 
 
 ## Mood Board 
 <img src="img/maintoMB.jpg">
